@@ -1,0 +1,113 @@
+{
+  "id": "9841a0b2-b14b-4b3f-838a-15dd571abb48",
+  "version": 1,
+  "name": "Shockwave",
+  "space": "3d",
+  "duration": 1.5,
+  "looping": true,
+  "maxParticles": 12,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 0,
+    "bursts": [
+      {
+        "time": 0,
+        "count": 1
+      },
+      {
+        "time": 0.3,
+        "count": 1
+      },
+      {
+        "time": 0.6,
+        "count": 1
+      },
+      {
+        "time": 0.9,
+        "count": 1
+      },
+      {
+        "time": 1.2,
+        "count": 1
+      }
+    ]
+  },
+  "shape": {
+    "type": "point"
+  },
+  "startLifetime": {
+    "min": 1.5,
+    "max": 1.5
+  },
+  "startSpeed": {
+    "min": 0,
+    "max": 0
+  },
+  "startSize": {
+    "min": 0.4,
+    "max": 0.4
+  },
+  "startColor": {
+    "r": 0.7,
+    "g": 0.95,
+    "b": 1
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0.15
+      },
+      {
+        "t": 1,
+        "v": 4
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.85,
+          "g": 0.98,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.2,
+          "g": 0.5,
+          "b": 1
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.6,
+        "alpha": 0.5
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "mode": "mesh",
+    "meshPrimitive": "torus",
+    "meshLit": false
+  }
+}

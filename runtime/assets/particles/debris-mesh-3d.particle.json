@@ -1,0 +1,34 @@
+{
+  "id": "906da40a-67ac-475c-9ea9-ebb527bfd382",
+  "version": 1,
+  "name": "Explosion Debris",
+  "space": "3d",
+  "duration": 2.4,
+  "looping": true,
+  "maxParticles": 320,
+  "worldSpace": true,
+  "emission": {
+    "rateOverTime": 0,
+    "bursts": [{ "time": 0, "count": 140 }]
+  },
+  "shape": { "type": "sphere", "radius": 0.2 },
+  "startLifetime": { "min": 1.2, "max": 2 },
+  "startSpeed": { "min": 3, "max": 6 },
+  "startSize": { "min": 0.12, "max": 0.28 },
+  "startRotation": { "min": 0, "max": 360 },
+  "rotationSpeed": { "min": -220, "max": 220 },
+  "startColor": { "r": 1, "g": 0.6, "b": 0.3 },
+  "startOpacity": 1,
+  "gravity": [0, -6, 0],
+  "drag": 0.4,
+  "collision": { "mode": "bounce", "bounce": 0.35, "shape": "plane", "planeNormal": [0, 1, 0], "planePoint": [0, -0.9, 0] },
+  "sizeOverLife": { "points": [{ "t": 0, "v": 1 }, { "t": 0.85, "v": 1 }, { "t": 1, "v": 0.2 }] },
+  "colorOverLife": {
+    "colorStops": [
+      { "t": 0, "color": { "r": 1, "g": 0.75, "b": 0.4 } },
+      { "t": 1, "color": { "r": 0.5, "g": 0.18, "b": 0.08 } }
+    ],
+    "alphaStops": [{ "t": 0, "alpha": 1 }, { "t": 0.85, "alpha": 1 }, { "t": 1, "alpha": 0 }]
+  },
+  "render": { "blend": "normal", "mode": "mesh", "meshPrimitive": "tetra", "meshLit": true }
+}

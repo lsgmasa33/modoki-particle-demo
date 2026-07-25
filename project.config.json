@@ -1,0 +1,15 @@
+{
+  "build": {
+    "webBucket": "",
+    "webBasePath": "/",
+    "webCdnUrlMap": "",
+    "appleTeamId": "",
+    "webCdnBackendBucket": "",
+    "webDeployCommand": "",
+    "webDeployMode": "none"
+  },
+  "app": {
+    "appId": "com.modokiengine.particledemo",
+    "appName": "Particle Demo"
+  }
+}

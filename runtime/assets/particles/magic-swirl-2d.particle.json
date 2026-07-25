@@ -1,0 +1,31 @@
+{
+  "id": "a5e1483a-da29-431d-aeca-da30f5c5ee62",
+  "version": 1,
+  "name": "Magic Swirl",
+  "space": "2d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 500,
+  "worldSpace": false,
+  "emission": { "rateOverTime": 180 },
+  "shape": { "type": "circle", "radiusStart": 60, "radiusEnd": 90 },
+  "startLifetime": { "min": 1.2, "max": 2 },
+  "startSpeed": { "min": 8, "max": 22 },
+  "startSize": { "min": 6, "max": 14 },
+  "rotationSpeed": { "min": -120, "max": 120 },
+  "startColor": { "r": 0.7, "g": 0.6, "b": 1 },
+  "startOpacity": 1,
+  "gravity": [0, 0, 0],
+  "drag": 0.4,
+  "forces": [{ "type": "point", "x": 0, "y": 0, "z": 0, "strength": 1.6 }],
+  "sizeOverLife": { "points": [{ "t": 0, "v": 0.2 }, { "t": 0.3, "v": 1 }, { "t": 1, "v": 0.1 }] },
+  "colorOverLife": {
+    "colorStops": [
+      { "t": 0, "color": { "r": 0.9, "g": 0.85, "b": 1 } },
+      { "t": 0.5, "color": { "r": 0.55, "g": 0.4, "b": 1 } },
+      { "t": 1, "color": { "r": 0.8, "g": 0.3, "b": 1 } }
+    ],
+    "alphaStops": [{ "t": 0, "alpha": 0 }, { "t": 0.25, "alpha": 1 }, { "t": 1, "alpha": 0 }]
+  },
+  "render": { "blend": "additive" }
+}

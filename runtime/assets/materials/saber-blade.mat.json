@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "type": "pbr",
+  "id": "e58818ae-9918-459e-bb39-556a888a381c",
+  "color": 657930,
+  "roughness": 0.3,
+  "metalness": 0,
+  "transparent": false,
+  "opacity": 1,
+  "emissive": 8978431,
+  "emissiveIntensity": 3.5
+}

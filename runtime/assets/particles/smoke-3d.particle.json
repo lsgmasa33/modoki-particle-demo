@@ -1,0 +1,102 @@
+{
+  "id": "2199ab5d-6fc1-4058-951e-6b17eb3c7f29",
+  "version": 1,
+  "name": "Rising Smoke",
+  "space": "3d",
+  "duration": 4,
+  "looping": true,
+  "maxParticles": 400,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 70
+  },
+  "shape": {
+    "type": "cone",
+    "angle": 14,
+    "radius": 0.3,
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 2.2,
+    "max": 3.4
+  },
+  "startSpeed": {
+    "min": 0.5,
+    "max": 1
+  },
+  "startSize": {
+    "min": 0.6,
+    "max": 1
+  },
+  "startColor": {
+    "r": 0.55,
+    "g": 0.58,
+    "b": 0.65
+  },
+  "startOpacity": 0.5,
+  "gravity": [
+    0,
+    0.5,
+    0
+  ],
+  "drag": 1.2,
+  "noise": {
+    "strength": 0.5,
+    "frequency": 0.4,
+    "scrollSpeed": 0.6
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0.4
+      },
+      {
+        "t": 1,
+        "v": 1.6
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.6,
+          "g": 0.63,
+          "b": 0.7
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.25,
+          "g": 0.27,
+          "b": 0.32
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 0
+      },
+      {
+        "t": 0.2,
+        "alpha": 0.5
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "normal",
+    "texture": "44c29972-9309-44ed-b040-590b5ff0d254"
+  }
+}

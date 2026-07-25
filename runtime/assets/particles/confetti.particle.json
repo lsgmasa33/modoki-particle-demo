@@ -1,0 +1,112 @@
+{
+  "id": "f732a776-3c16-443c-8548-638fc0a38241",
+  "version": 1,
+  "name": "Confetti",
+  "space": "2d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 400,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 60
+  },
+  "shape": {
+    "type": "cone",
+    "angle": 55,
+    "radius": 8,
+    "axis": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 1.8,
+    "max": 2.6
+  },
+  "startSpeed": {
+    "min": 260,
+    "max": 380
+  },
+  "startSize": {
+    "min": 0.3,
+    "max": 0.55
+  },
+  "startRotation": {
+    "min": 0,
+    "max": 360
+  },
+  "rotationSpeed": {
+    "min": -220,
+    "max": 220
+  },
+  "startColor": {
+    "r": 1,
+    "g": 1,
+    "b": 1
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    380,
+    0
+  ],
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.85
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 1,
+          "g": 0.3,
+          "b": 0.4
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 0.3,
+          "g": 0.8,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 1,
+          "g": 0.9,
+          "b": 0.2
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.85,
+        "alpha": 1
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "normal",
+    "aspect": 1
+  }
+}

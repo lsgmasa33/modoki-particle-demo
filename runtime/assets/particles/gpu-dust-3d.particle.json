@@ -1,0 +1,118 @@
+{
+  "id": "3346b22f-a558-4c8d-9518-d86ab58f2172",
+  "version": 1,
+  "name": "Nebula",
+  "space": "3d",
+  "duration": 6,
+  "looping": true,
+  "maxParticles": 40000,
+  "worldSpace": false,
+  "simulation": "gpu",
+  "emission": {
+    "rateOverTime": 0,
+    "fillPool": true
+  },
+  "shape": {
+    "type": "sphere",
+    "radius": 3.5
+  },
+  "startLifetime": {
+    "min": 4,
+    "max": 7
+  },
+  "startSpeed": {
+    "min": 0.02,
+    "max": 0.12
+  },
+  "startSize": {
+    "min": 0.04,
+    "max": 0.12
+  },
+  "startColor": {
+    "r": 0.6,
+    "g": 0.7,
+    "b": 1
+  },
+  "startOpacity": 0.35,
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.1,
+  "noise": {
+    "strength": 0.15,
+    "frequency": 0.3,
+    "scrollSpeed": 0.15
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0
+      },
+      {
+        "t": 0.2,
+        "v": 1
+      },
+      {
+        "t": 0.85,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.5,
+          "g": 0.7,
+          "b": 1
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 0.8,
+          "g": 0.5,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 1,
+          "g": 0.5,
+          "b": 0.8
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 0
+      },
+      {
+        "t": 0.3,
+        "alpha": 0.8
+      },
+      {
+        "t": 0.85,
+        "alpha": 0.8
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "0a172f4e-445b-45a4-af98-79de66c4b1c2"
+  }
+}

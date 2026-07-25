@@ -1,0 +1,114 @@
+{
+  "id": "57aec996-e5f3-40fd-aaae-5592dcffa320",
+  "version": 1,
+  "name": "Fireball",
+  "space": "3d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 900,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 420
+  },
+  "shape": {
+    "type": "cone",
+    "angle": 16,
+    "radius": 0.3,
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 0.9,
+    "max": 1.6
+  },
+  "startSpeed": {
+    "min": 1.2,
+    "max": 2.2
+  },
+  "startSize": {
+    "min": 0.45,
+    "max": 0.85
+  },
+  "startColor": {
+    "r": 1,
+    "g": 0.85,
+    "b": 0.45
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    1.2,
+    0
+  ],
+  "drag": 0.6,
+  "noise": {
+    "strength": 0.75,
+    "frequency": 0.7,
+    "scrollSpeed": 1.4
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0.5
+      },
+      {
+        "t": 0.25,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.1
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 1,
+          "g": 0.95,
+          "b": 0.7
+        }
+      },
+      {
+        "t": 0.4,
+        "color": {
+          "r": 1,
+          "g": 0.45,
+          "b": 0.12
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.5,
+          "g": 0.06,
+          "b": 0.04
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.8,
+        "alpha": 0.85
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "717282fb-f1cd-464f-af73-3983e852e2d7"
+  }
+}

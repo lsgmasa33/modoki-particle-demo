@@ -1,0 +1,368 @@
+{
+  "id": "0f276dab-2ead-4026-866e-55130557c0de",
+  "name": "Swing",
+  "duration": 2.4,
+  "frameRate": 30,
+  "loop": true,
+  "tracks": [
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "x",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": -5,
+          "inTangent": 1.2734753699164911,
+          "outTangent": 1.2734753699164911,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": -4.617957389025053,
+          "inTangent": 1.2734753699164911,
+          "outTangent": 1.2734753699164911,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": -5,
+          "inTangent": 1.2734753699164911,
+          "outTangent": 1.2734753699164911,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "y",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0.8,
+          "inTangent": 2.844699406084743,
+          "outTangent": 2.844699406084743,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": 1.653409821825423,
+          "inTangent": 2.844699406084743,
+          "outTangent": 2.844699406084743,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 0.8,
+          "inTangent": 2.844699406084743,
+          "outTangent": 2.844699406084743,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "z",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 12,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": 12,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 12,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "rx",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0,
+          "inTangent": 6.305551389475365e-16,
+          "outTangent": 6.305551389475365e-16,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": 1.8916654168426096e-16,
+          "inTangent": 5.168943931805143,
+          "outTangent": 5.168943931805143,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.4666666666666667,
+          "v": 2.2398757037822286,
+          "inTangent": -9.44044761009926,
+          "outTangent": -9.44044761009926,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.9333333333333333,
+          "v": -2.832134283029778,
+          "inTangent": -30.432059920872046,
+          "outTangent": -30.432059920872046,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 0,
+          "inTangent": 6.305551389475365e-16,
+          "outTangent": 6.305551389475365e-16,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "rz",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0,
+          "inTangent": 7.398514402536036,
+          "outTangent": 7.398514402536036,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": 2.219554320760811,
+          "inTangent": 0.8393150728620975,
+          "outTangent": 0.8393150728620975,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.7,
+          "v": 1.9270008061457278,
+          "inTangent": -2.079618078644321,
+          "outTangent": -2.079618078644321,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.2333333333333334,
+          "v": 1.3183864866816053,
+          "inTangent": -0.47439547596553344,
+          "outTangent": -0.47439547596553344,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.8,
+          "v": 0,
+          "inTangent": 0.8222642624182152,
+          "outTangent": 0.8222642624182152,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.0333333333333337,
+          "v": -1.221,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto"
+        },
+        {
+          "t": 2.2666666666666666,
+          "v": 0,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto"
+        },
+        {
+          "t": 2.4,
+          "v": 0,
+          "inTangent": 7.398514402536036,
+          "outTangent": 7.398514402536036,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "",
+      "trait": "Transform",
+      "field": "ry",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0,
+          "inTangent": 3.145228652880265,
+          "outTangent": 3.145228652880265,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.3,
+          "v": 0.9435685958640795,
+          "inTangent": 1.9056337602613445,
+          "outTangent": 1.9056337602613445,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 0.4666666666666667,
+          "v": 0.8257746294465826,
+          "inTangent": -0.0758044732611908,
+          "outTangent": -0.0758044732611908,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.5666666666666667,
+          "v": 0.900612727682738,
+          "inTangent": 0.17270330362189706,
+          "outTangent": 0.17270330362189706,
+          "tangentMode": "auto",
+          "broken": false,
+          "inWeight": 0.6451313783259597
+        },
+        {
+          "t": 2.4,
+          "v": 0,
+          "inTangent": 3.145228652880265,
+          "outTangent": 3.145228652880265,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "Saber Blade",
+      "trait": "Transform",
+      "field": "x",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0.32332959523728566,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.5666666666666667,
+          "v": 0.32332959523728566,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 0.32332959523728566,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "Saber Blade",
+      "trait": "Transform",
+      "field": "y",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0.6938103586066795,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.5666666666666667,
+          "v": 0.6938103586066795,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 0.6938103586066795,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    },
+    {
+      "path": "Saber Blade",
+      "trait": "Transform",
+      "field": "z",
+      "type": "number",
+      "keys": [
+        {
+          "t": 0,
+          "v": 0.7578562755182165,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 1.5666666666666667,
+          "v": 0.7578562755182165,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        },
+        {
+          "t": 2.4,
+          "v": 0.7578562755182165,
+          "inTangent": 0,
+          "outTangent": 0,
+          "tangentMode": "auto",
+          "broken": false
+        }
+      ]
+    }
+  ]
+}

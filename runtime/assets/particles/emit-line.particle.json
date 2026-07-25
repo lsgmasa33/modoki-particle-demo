@@ -1,0 +1,107 @@
+{
+  "id": "d7da7da0-c930-4784-8299-0fc6ff9eeba0",
+  "version": 1,
+  "name": "Emit Along Line",
+  "space": "2d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 600,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 280
+  },
+  "shape": {
+    "type": "polyline",
+    "points": [
+      [
+        -170,
+        40
+      ],
+      [
+        -60,
+        -30
+      ],
+      [
+        55,
+        30
+      ],
+      [
+        170,
+        -40
+      ]
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 1,
+    "max": 1.8
+  },
+  "startSpeed": {
+    "min": 35,
+    "max": 85
+  },
+  "startSize": {
+    "min": 0.18,
+    "max": 0.34
+  },
+  "startColor": {
+    "r": 0.5,
+    "g": 0.9,
+    "b": 1
+  },
+  "startOpacity": 0.9,
+  "gravity": [
+    0,
+    40,
+    0
+  ],
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.2
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.6,
+          "g": 0.95,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.2,
+          "g": 0.4,
+          "b": 0.95
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 0.9
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive"
+  }
+}

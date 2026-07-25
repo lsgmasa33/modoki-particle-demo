@@ -1,0 +1,125 @@
+{
+  "id": "008eb9af-b343-426a-ae2f-cd6e0f9e9d33",
+  "version": 1,
+  "name": "Star Burst",
+  "space": "3d",
+  "duration": 2.5,
+  "looping": true,
+  "maxParticles": 800,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 0,
+    "bursts": [
+      {
+        "time": 0,
+        "count": 220
+      },
+      {
+        "time": 1.2,
+        "count": 220
+      }
+    ]
+  },
+  "shape": {
+    "type": "sphere",
+    "radius": 0.15
+  },
+  "startLifetime": {
+    "min": 1.2,
+    "max": 1.9
+  },
+  "startSpeed": {
+    "min": 1.5,
+    "max": 3.5
+  },
+  "startSize": {
+    "min": 0.25,
+    "max": 0.5
+  },
+  "startRotation": {
+    "min": 0,
+    "max": 360
+  },
+  "rotationSpeed": {
+    "min": -40,
+    "max": 40
+  },
+  "startColor": {
+    "r": 1,
+    "g": 0.9,
+    "b": 0.6
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    -0.4,
+    0
+  ],
+  "drag": 0.6,
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0
+      },
+      {
+        "t": 0.2,
+        "v": 1
+      },
+      {
+        "t": 0.6,
+        "v": 0.7
+      },
+      {
+        "t": 1,
+        "v": 0
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 0.85
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 1,
+          "g": 0.85,
+          "b": 0.4
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 1,
+          "g": 0.6,
+          "b": 0.2
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.7,
+        "alpha": 0.9
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "c7b1a25f-1954-4262-9937-b9e1cb98a8a2"
+  }
+}

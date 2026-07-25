@@ -1,0 +1,121 @@
+{
+  "id": "b29f7bfc-b45b-4b4b-bfe1-75ebdc97c87a",
+  "version": 1,
+  "name": "Magic Orb",
+  "space": "3d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 500,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 160
+  },
+  "shape": {
+    "type": "sphere",
+    "radius": 0.9,
+    "fromShell": true
+  },
+  "startLifetime": {
+    "min": 1.2,
+    "max": 2
+  },
+  "startSpeed": {
+    "min": 0.1,
+    "max": 0.4
+  },
+  "startSize": {
+    "min": 0.12,
+    "max": 0.26
+  },
+  "rotationSpeed": {
+    "min": -60,
+    "max": 60
+  },
+  "startColor": {
+    "r": 0.7,
+    "g": 0.6,
+    "b": 1
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.5,
+  "forces": [
+    {
+      "type": "point",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "strength": 1.2
+    }
+  ],
+  "trail": {
+    "enabled": true,
+    "segments": 6
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0.2
+      },
+      {
+        "t": 0.3,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.1
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.85,
+          "g": 0.8,
+          "b": 1
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 0.5,
+          "g": 0.4,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.7,
+          "g": 0.3,
+          "b": 1
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 0
+      },
+      {
+        "t": 0.25,
+        "alpha": 1
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "303b25b7-3b9c-41e3-9605-2a9a599d5a97"
+  }
+}

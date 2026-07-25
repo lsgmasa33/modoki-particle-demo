@@ -1,0 +1,394 @@
+{
+  "id": "fccd3bb1-d7d6-4d46-b33d-e715c477e3d1",
+  "name": "Showcase",
+  "duration": 84,
+  "frameRate": 30,
+  "tracks": [
+    {
+      "id": "act-0",
+      "name": "Bonfire active",
+      "target": "Bonfire",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 0,
+          "end": 6
+        }
+      ]
+    },
+    {
+      "id": "act-1",
+      "name": "Flame Flipbook active",
+      "target": "Flame Flipbook",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 6,
+          "end": 12
+        }
+      ]
+    },
+    {
+      "id": "act-2",
+      "name": "Rising Smoke active",
+      "target": "Rising Smoke",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 12,
+          "end": 18
+        }
+      ]
+    },
+    {
+      "id": "act-3",
+      "name": "Cosmic Dust active",
+      "target": "Cosmic Dust",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 18,
+          "end": 24
+        }
+      ]
+    },
+    {
+      "id": "act-4",
+      "name": "Firework Shell active",
+      "target": "Firework Shell",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 24,
+          "end": 30
+        }
+      ]
+    },
+    {
+      "id": "act-5",
+      "name": "Sparks Trail active",
+      "target": "Sparks Trail",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 30,
+          "end": 36
+        }
+      ]
+    },
+    {
+      "id": "act-6",
+      "name": "Debris Burst active",
+      "target": "Debris Burst",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 36,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "act-7",
+      "name": "Magic Orbit active",
+      "target": "Magic Orbit",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 42,
+          "end": 48
+        }
+      ]
+    },
+    {
+      "id": "act-8",
+      "name": "Vortex active",
+      "target": "Vortex",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 48,
+          "end": 54
+        }
+      ]
+    },
+    {
+      "id": "act-9",
+      "name": "Comet active",
+      "target": "Comet",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 54,
+          "end": 60
+        }
+      ]
+    },
+    {
+      "id": "act-10",
+      "name": "Lightsaber active",
+      "target": "Lightsaber",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 60,
+          "end": 66
+        }
+      ]
+    },
+    {
+      "id": "act-11",
+      "name": "Shockwave active",
+      "target": "Shockwave",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 66,
+          "end": 72
+        }
+      ]
+    },
+    {
+      "id": "act-12",
+      "name": "Lightning active",
+      "target": "Lightning",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 72,
+          "end": 78
+        }
+      ]
+    },
+    {
+      "id": "act-13",
+      "name": "Star Burst active",
+      "target": "Star Burst",
+      "type": "activation",
+      "spans": [
+        {
+          "start": 78,
+          "end": 84
+        }
+      ]
+    },
+    {
+      "id": "captions",
+      "name": "Captions",
+      "target": "HUD/Now Showing",
+      "type": "signal",
+      "markers": [
+        {
+          "t": 0,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "1  Fireball — additive flame",
+            "anchor": "top",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 6,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "2  Flame Core — hot plume",
+            "anchor": "left",
+            "textAlign": "left",
+            "pivotX": 0,
+            "pivotY": 0.5,
+            "top": 0,
+            "bottom": 0,
+            "left": 56,
+            "right": 0
+          }
+        },
+        {
+          "t": 12,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "3  Rising Smoke — soft billboards",
+            "anchor": "top",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 18,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "4  Nebula — 40k GPU particles",
+            "anchor": "bottom",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 1,
+            "top": 0,
+            "bottom": 56,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 24,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "5  Firework — burst + trails",
+            "anchor": "top-right",
+            "textAlign": "right",
+            "pivotX": 1,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 0,
+            "right": 56
+          }
+        },
+        {
+          "t": 30,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "6  Energy Jet — trailed sparks",
+            "anchor": "left",
+            "textAlign": "left",
+            "pivotX": 0,
+            "pivotY": 0.5,
+            "top": 0,
+            "bottom": 0,
+            "left": 56,
+            "right": 0
+          }
+        },
+        {
+          "t": 36,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "7  Debris — mesh + bounce",
+            "anchor": "bottom",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 1,
+            "top": 0,
+            "bottom": 56,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 42,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "8  Magic Orb — orbiting + trails",
+            "anchor": "bottom",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 1,
+            "top": 0,
+            "bottom": 56,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 48,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "9  Black Hole — attractor disk",
+            "anchor": "top-left",
+            "textAlign": "left",
+            "pivotX": 0,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 56,
+            "right": 0
+          }
+        },
+        {
+          "t": 54,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "10  Comet — orbiting light + trail",
+            "anchor": "right",
+            "textAlign": "right",
+            "pivotX": 1,
+            "pivotY": 0.5,
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 56
+          }
+        },
+        {
+          "t": 60,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "11  Lightsaber — emissive blade",
+            "anchor": "top-right",
+            "textAlign": "right",
+            "pivotX": 1,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 0,
+            "right": 56
+          }
+        },
+        {
+          "t": 66,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "12  Shockwave — expanding rings",
+            "anchor": "top",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "top": 74,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 72,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "13  Lightning — electric crackle",
+            "anchor": "bottom",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 1,
+            "top": 0,
+            "bottom": 56,
+            "left": 0,
+            "right": 0
+          }
+        },
+        {
+          "t": 78,
+          "action": "demo.setLabel",
+          "params": {
+            "text": "14  Star Burst — twinkling stars",
+            "anchor": "bottom",
+            "textAlign": "center",
+            "pivotX": 0.5,
+            "pivotY": 1,
+            "top": 0,
+            "bottom": 56,
+            "left": 0,
+            "right": 0
+          }
+        }
+      ]
+    }
+  ]
+}

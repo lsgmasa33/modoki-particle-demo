@@ -1,0 +1,105 @@
+{
+  "id": "118852e6-e385-41cc-a6d2-008c09b67a42",
+  "version": 1,
+  "name": "Energy Jet",
+  "space": "3d",
+  "duration": 2,
+  "looping": true,
+  "maxParticles": 500,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 180
+  },
+  "shape": {
+    "type": "cone",
+    "angle": 8,
+    "radius": 0.1,
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 0.7,
+    "max": 1.2
+  },
+  "startSpeed": {
+    "min": 3.5,
+    "max": 5.5
+  },
+  "startSize": {
+    "min": 0.12,
+    "max": 0.24
+  },
+  "startColor": {
+    "r": 0.5,
+    "g": 0.9,
+    "b": 1
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    -1.2,
+    0
+  ],
+  "drag": 0.3,
+  "trail": {
+    "enabled": true,
+    "segments": 8
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.2
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.85,
+          "g": 1,
+          "b": 1
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 0.3,
+          "g": 0.7,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.1,
+          "g": 0.2,
+          "b": 0.6
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "14848810-a73f-4865-8215-7dae9524c5e4"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "3a2a6843-58f1-4e54-b569-28b4cf3bee9d",
+  "version": 1,
+  "name": "Firework",
+  "space": "3d",
+  "duration": 2.2,
+  "looping": true,
+  "maxParticles": 700,
+  "worldSpace": true,
+  "emission": {
+    "rateOverTime": 0,
+    "bursts": [
+      {
+        "time": 0,
+        "count": 260
+      },
+      {
+        "time": 1.1,
+        "count": 260
+      }
+    ]
+  },
+  "shape": {
+    "type": "sphere",
+    "radius": 0.15
+  },
+  "startLifetime": {
+    "min": 0.9,
+    "max": 1.5
+  },
+  "startSpeed": {
+    "min": 3,
+    "max": 5
+  },
+  "startSize": {
+    "min": 0.18,
+    "max": 0.32
+  },
+  "startColor": {
+    "r": 1,
+    "g": 0.7,
+    "b": 0.9
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    -2.2,
+    0
+  ],
+  "drag": 0.9,
+  "trail": {
+    "enabled": true,
+    "segments": 6
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.15
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 1,
+          "g": 0.95,
+          "b": 0.8
+        }
+      },
+      {
+        "t": 0.4,
+        "color": {
+          "r": 1,
+          "g": 0.4,
+          "b": 0.8
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.4,
+          "g": 0.1,
+          "b": 0.6
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.7,
+        "alpha": 0.9
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "ae3c1997-ea3e-49cc-a4ed-e1ae24df8b8d"
+  }
+}

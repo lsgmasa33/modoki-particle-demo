@@ -1,0 +1,105 @@
+{
+  "id": "8e859493-057a-4ff1-883c-c9dba7134b9f",
+  "version": 1,
+  "name": "Aligned Jet",
+  "space": "2d",
+  "duration": 3,
+  "looping": true,
+  "maxParticles": 600,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 220
+  },
+  "shape": {
+    "type": "cone",
+    "angle": 34,
+    "radius": 6,
+    "axis": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 0.9,
+    "max": 1.5
+  },
+  "startSpeed": {
+    "min": 220,
+    "max": 340
+  },
+  "startSize": {
+    "min": 0.3,
+    "max": 0.55
+  },
+  "startColor": {
+    "r": 1,
+    "g": 0.7,
+    "b": 0.25
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    450,
+    0
+  ],
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0.1
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 1,
+          "g": 0.95,
+          "b": 0.7
+        }
+      },
+      {
+        "t": 0.5,
+        "color": {
+          "r": 1,
+          "g": 0.55,
+          "b": 0.15
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 0.6,
+          "g": 0.1,
+          "b": 0.1
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 1
+      },
+      {
+        "t": 0.8,
+        "alpha": 1
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "alignToVelocity": true,
+    "aspect": 0.5
+  }
+}

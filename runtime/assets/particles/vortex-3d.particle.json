@@ -1,0 +1,123 @@
+{
+  "id": "636beff5-66bb-4900-9842-5b6b186f75b8",
+  "version": 1,
+  "name": "Black Hole",
+  "space": "3d",
+  "duration": 4,
+  "looping": true,
+  "maxParticles": 1200,
+  "worldSpace": false,
+  "emission": {
+    "rateOverTime": 300
+  },
+  "shape": {
+    "type": "circle",
+    "radiusStart": 2,
+    "radiusEnd": 2.6,
+    "axis": [
+      0,
+      1,
+      0
+    ]
+  },
+  "startLifetime": {
+    "min": 1.6,
+    "max": 2.6
+  },
+  "startSpeed": {
+    "min": 0.6,
+    "max": 1.2
+  },
+  "startSize": {
+    "min": 0.08,
+    "max": 0.18
+  },
+  "startColor": {
+    "r": 0.5,
+    "g": 0.75,
+    "b": 1
+  },
+  "startOpacity": 1,
+  "gravity": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.2,
+  "forces": [
+    {
+      "type": "point",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "strength": 2.4
+    }
+  ],
+  "noise": {
+    "strength": 0.4,
+    "frequency": 0.6,
+    "scrollSpeed": 1
+  },
+  "sizeOverLife": {
+    "points": [
+      {
+        "t": 0,
+        "v": 0.6
+      },
+      {
+        "t": 0.7,
+        "v": 1
+      },
+      {
+        "t": 1,
+        "v": 0
+      }
+    ]
+  },
+  "colorOverLife": {
+    "colorStops": [
+      {
+        "t": 0,
+        "color": {
+          "r": 0.4,
+          "g": 0.6,
+          "b": 1
+        }
+      },
+      {
+        "t": 0.6,
+        "color": {
+          "r": 0.7,
+          "g": 0.5,
+          "b": 1
+        }
+      },
+      {
+        "t": 1,
+        "color": {
+          "r": 1,
+          "g": 0.9,
+          "b": 1
+        }
+      }
+    ],
+    "alphaStops": [
+      {
+        "t": 0,
+        "alpha": 0.9
+      },
+      {
+        "t": 0.6,
+        "alpha": 1
+      },
+      {
+        "t": 1,
+        "alpha": 0
+      }
+    ]
+  },
+  "render": {
+    "blend": "additive",
+    "texture": "65157b69-8a60-437e-9659-b603d6511aa3"
+  }
+}
