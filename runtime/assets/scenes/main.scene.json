@@ -1,0 +1,641 @@
+{
+  "id": "8d342f06-9c66-49be-9eae-d0e55253d8d8",
+  "version": 12,
+  "createdAt": "2026-07-25T12:51:08.815Z",
+  "resources": [
+    {
+      "type": "animation",
+      "path": "0f276dab-2ead-4026-866e-55130557c0de"
+    },
+    {
+      "type": "animation",
+      "path": "2f6eb287-cc46-490c-a1c1-54654ef4bd55"
+    },
+    {
+      "type": "material",
+      "path": "e58818ae-9918-459e-bb39-556a888a381c"
+    },
+    {
+      "type": "particle",
+      "path": "008eb9af-b343-426a-ae2f-cd6e0f9e9d33"
+    },
+    {
+      "type": "particle",
+      "path": "10317771-f3fa-4a17-9097-daae07b2fc33"
+    },
+    {
+      "type": "particle",
+      "path": "118852e6-e385-41cc-a6d2-008c09b67a42"
+    },
+    {
+      "type": "particle",
+      "path": "2199ab5d-6fc1-4058-951e-6b17eb3c7f29"
+    },
+    {
+      "type": "particle",
+      "path": "3346b22f-a558-4c8d-9518-d86ab58f2172"
+    },
+    {
+      "type": "particle",
+      "path": "3a2a6843-58f1-4e54-b569-28b4cf3bee9d"
+    },
+    {
+      "type": "particle",
+      "path": "56bc9b60-1dce-49c9-91ad-3b7006757ebb"
+    },
+    {
+      "type": "particle",
+      "path": "57aec996-e5f3-40fd-aaae-5592dcffa320"
+    },
+    {
+      "type": "particle",
+      "path": "636beff5-66bb-4900-9842-5b6b186f75b8"
+    },
+    {
+      "type": "particle",
+      "path": "906da40a-67ac-475c-9ea9-ebb527bfd382"
+    },
+    {
+      "type": "particle",
+      "path": "9841a0b2-b14b-4b3f-838a-15dd571abb48"
+    },
+    {
+      "type": "particle",
+      "path": "b29f7bfc-b45b-4b4b-bfe1-75ebdc97c87a"
+    },
+    {
+      "type": "particle",
+      "path": "ca2f01f6-3d24-4e2e-9dbd-921c05c08fb0"
+    },
+    {
+      "type": "timeline",
+      "path": "fccd3bb1-d7d6-4d46-b33d-e715c477e3d1"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Time (resource)",
+      "traits": {
+        "Time": {}
+      }
+    },
+    {
+      "name": "Director",
+      "traits": {
+        "Transform": {},
+        "EntityAttributes": {
+          "name": "Director",
+          "parentId": "",
+          "guid": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2"
+        },
+        "Director": {
+          "timeline": "fccd3bb1-d7d6-4d46-b33d-e715c477e3d1",
+          "loop": true
+        }
+      }
+    },
+    {
+      "name": "Vortex",
+      "traits": {
+        "Transform": {
+          "x": 6,
+          "y": 0.2,
+          "z": 6
+        },
+        "ParticleEmitter": {
+          "effect": "636beff5-66bb-4900-9842-5b6b186f75b8"
+        },
+        "EntityAttributes": {
+          "name": "Vortex",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "0178809c-41e3-42e0-8dfc-d25ffdd344bc"
+        }
+      }
+    },
+    {
+      "name": "Magic Orbit",
+      "traits": {
+        "Transform": {
+          "y": 1.5,
+          "z": 6
+        },
+        "ParticleEmitter": {
+          "effect": "b29f7bfc-b45b-4b4b-bfe1-75ebdc97c87a"
+        },
+        "EntityAttributes": {
+          "name": "Magic Orbit",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "0a1510dd-5f06-4f51-8821-5326950e9449"
+        }
+      }
+    },
+    {
+      "name": "Flame Flipbook",
+      "traits": {
+        "Transform": {
+          "z": -6
+        },
+        "ParticleEmitter": {
+          "effect": "56bc9b60-1dce-49c9-91ad-3b7006757ebb"
+        },
+        "EntityAttributes": {
+          "name": "Flame Flipbook",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "348242da-3567-40fe-9f91-f4142d9fb73b"
+        }
+      }
+    },
+    {
+      "name": "HUD",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "HUD",
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "ui",
+          "guid": "52bdd6d0-58b9-4e2e-af9f-4e210ee74f3a"
+        },
+        "UIElement": {
+          "width": 100,
+          "height": 100
+        },
+        "UIAnchor": {}
+      }
+    },
+    {
+      "name": "Now Showing",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Now Showing",
+          "parentId": "52bdd6d0-58b9-4e2e-af9f-4e210ee74f3a",
+          "layer": "ui",
+          "guid": "0b336025-9b14-407b-9ae2-37c459908e15"
+        },
+        "UIElement": {
+          "width": 44,
+          "marginTopUnit": "px",
+          "marginRightUnit": "px",
+          "marginBottomUnit": "px",
+          "marginLeftUnit": "px",
+          "text": "1  Bonfire — textured billboard",
+          "fontSize": 19,
+          "fontWeight": "bold",
+          "textAlign": "center",
+          "textShadowOpacity": 0.85,
+          "textShadowOffsetX": 2,
+          "textShadowOffsetY": 2,
+          "textShadowBlur": 7,
+          "textStrokeWidth": 3
+        },
+        "UIAnchor": {
+          "anchor": "top",
+          "top": 66
+        }
+      }
+    },
+    {
+      "name": "Title",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Title",
+          "parentId": "52bdd6d0-58b9-4e2e-af9f-4e210ee74f3a",
+          "layer": "ui",
+          "guid": "4873989d-fed8-419c-85e6-f5ecb1275cfd"
+        },
+        "UIElement": {
+          "width": 100,
+          "opacity": 0.62,
+          "text": "PARTICLE SHOWCASE",
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "letterSpacing": 2,
+          "textShadowOpacity": 0.85,
+          "textShadowOffsetX": 2,
+          "textShadowOffsetY": 2,
+          "textShadowBlur": 7,
+          "textStrokeWidth": 2
+        },
+        "UIAnchor": {
+          "anchor": "top-left",
+          "top": 16,
+          "left": 20
+        }
+      }
+    },
+    {
+      "name": "Nav 2D Gallery",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Nav 2D Gallery",
+          "isActive": false,
+          "parentId": "52bdd6d0-58b9-4e2e-af9f-4e210ee74f3a",
+          "layer": "ui",
+          "guid": "71ceb83a-956b-47d9-bd0f-deeb635d4cf0"
+        },
+        "UIElement": {
+          "width": 170,
+          "widthUnit": "px",
+          "paddingTop": 12,
+          "paddingTopUnit": "px",
+          "paddingBottom": 12,
+          "paddingBottomUnit": "px",
+          "backgroundColor": 2828617,
+          "backgroundOpacity": 0.85,
+          "borderRadius": 10,
+          "text": "2D Gallery →",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAction": {
+          "bindings": [
+            {
+              "event": "click",
+              "kind": "call",
+              "action": "engine.loadScene",
+              "params": {
+                "payload": "/assets/scenes/2d-gallery.json"
+              }
+            }
+          ]
+        },
+        "UIAnchor": {
+          "anchor": "top-right",
+          "top": 36,
+          "right": 28
+        }
+      }
+    },
+    {
+      "name": "Cosmic Dust",
+      "traits": {
+        "Transform": {
+          "x": 6,
+          "y": 2.5
+        },
+        "ParticleEmitter": {
+          "effect": "3346b22f-a558-4c8d-9518-d86ab58f2172"
+        },
+        "EntityAttributes": {
+          "name": "Cosmic Dust",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "53a66e43-3523-4898-9ce6-1934fac15c80"
+        }
+      }
+    },
+    {
+      "name": "Debris Burst",
+      "traits": {
+        "Transform": {
+          "x": -6,
+          "y": 2.16832559,
+          "z": 6
+        },
+        "ParticleEmitter": {
+          "effect": "906da40a-67ac-475c-9ea9-ebb527bfd382"
+        },
+        "EntityAttributes": {
+          "name": "Debris Burst",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "7ac49cf4-0d6b-4af6-b775-b8b77086f2ea"
+        }
+      }
+    },
+    {
+      "name": "Sparks Trail",
+      "traits": {
+        "Transform": {
+          "x": -6,
+          "y": 0.8
+        },
+        "ParticleEmitter": {
+          "effect": "118852e6-e385-41cc-a6d2-008c09b67a42"
+        },
+        "EntityAttributes": {
+          "name": "Sparks Trail",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "90868cd5-4a1a-4e2b-bbe9-50a98568fe12"
+        }
+      }
+    },
+    {
+      "name": "Bonfire",
+      "traits": {
+        "Transform": {
+          "x": -6,
+          "z": -6
+        },
+        "ParticleEmitter": {
+          "effect": "57aec996-e5f3-40fd-aaae-5592dcffa320"
+        },
+        "EntityAttributes": {
+          "name": "Bonfire",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "a3331ded-815a-4c42-9bc8-d2b3a20eb3d7"
+        }
+      }
+    },
+    {
+      "name": "Lightsaber",
+      "traits": {
+        "Transform": {
+          "x": -5.213980354629646,
+          "y": 0.3220089825775956,
+          "z": 12.000000000000002,
+          "rx": -3.4274063625128313,
+          "ry": 0.19947582199247882,
+          "rz": -0.919884826675933
+        },
+        "EntityAttributes": {
+          "name": "Lightsaber",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "c2f23292-e864-4ca5-9a10-7b6f0b025120"
+        },
+        "Animator": {
+          "clips": "[{\"name\":\"swing\",\"clip\":\"0f276dab-2ead-4026-866e-55130557c0de\"}]",
+          "clip": "swing"
+        }
+      }
+    },
+    {
+      "name": "Saber Blade",
+      "traits": {
+        "Transform": {
+          "x": 0.32332959523728566,
+          "y": 0.6938103586066796,
+          "z": 0.7578562755182167,
+          "sx": 0.18,
+          "sy": 2.4,
+          "sz": 0.18
+        },
+        "Renderable3DPrimitive": {
+          "mesh": "cylinder",
+          "color": 657930,
+          "material": "e58818ae-9918-459e-bb39-556a888a381c"
+        },
+        "EntityAttributes": {
+          "name": "Saber Blade",
+          "parentId": "c2f23292-e864-4ca5-9a10-7b6f0b025120",
+          "layer": "3d",
+          "guid": "25bed67a-4d14-40db-9ea1-f9d0369d3fad"
+        }
+      }
+    },
+    {
+      "name": "Shockwave",
+      "traits": {
+        "Transform": {
+          "y": 1.2,
+          "z": 12,
+          "rx": 1.7761481681469764,
+          "ry": 0.5819243063055205,
+          "rz": 2.1860165943395353
+        },
+        "ParticleEmitter": {
+          "effect": "9841a0b2-b14b-4b3f-838a-15dd571abb48"
+        },
+        "EntityAttributes": {
+          "name": "Shockwave",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "ca13cb97-feec-4dc3-aa2a-9e7b8e0e5ba1"
+        }
+      }
+    },
+    {
+      "name": "Rising Smoke",
+      "traits": {
+        "Transform": {
+          "x": 6,
+          "z": -6
+        },
+        "ParticleEmitter": {
+          "effect": "2199ab5d-6fc1-4058-951e-6b17eb3c7f29"
+        },
+        "EntityAttributes": {
+          "name": "Rising Smoke",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "d508ce06-c05a-49e6-8727-97d65963e6ec"
+        }
+      }
+    },
+    {
+      "name": "Star Burst",
+      "traits": {
+        "Transform": {
+          "x": 10,
+          "y": 2,
+          "z": 12
+        },
+        "ParticleEmitter": {
+          "effect": "008eb9af-b343-426a-ae2f-cd6e0f9e9d33"
+        },
+        "EntityAttributes": {
+          "name": "Star Burst",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "ddbbf2ab-acba-4873-90cf-2039164b9c61"
+        }
+      }
+    },
+    {
+      "name": "Comet",
+      "traits": {
+        "Transform": {
+          "x": -10,
+          "y": 2.5,
+          "z": 12
+        },
+        "EntityAttributes": {
+          "name": "Comet",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "guid": "ddc6aead-38e9-4a6f-b68b-4fde3ae989a2"
+        },
+        "Rotate3D": {
+          "speed": 2.6
+        }
+      }
+    },
+    {
+      "name": "Comet Head",
+      "traits": {
+        "Transform": {
+          "x": 1.7
+        },
+        "ParticleEmitter": {
+          "effect": "10317771-f3fa-4a17-9097-daae07b2fc33"
+        },
+        "EntityAttributes": {
+          "name": "Comet Head",
+          "parentId": "ddc6aead-38e9-4a6f-b68b-4fde3ae989a2",
+          "layer": "3d",
+          "guid": "41570a6e-19e3-4e98-bf2e-f7b2339e0537"
+        }
+      }
+    },
+    {
+      "name": "Lightning",
+      "traits": {
+        "Transform": {
+          "x": 5,
+          "y": 2,
+          "z": 12
+        },
+        "ParticleEmitter": {
+          "effect": "ca2f01f6-3d24-4e2e-9dbd-921c05c08fb0"
+        },
+        "EntityAttributes": {
+          "name": "Lightning",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "e85bb764-b534-452b-9e1a-f11860705289"
+        }
+      }
+    },
+    {
+      "name": "Firework Shell",
+      "traits": {
+        "Transform": {},
+        "ParticleEmitter": {
+          "effect": "3a2a6843-58f1-4e54-b569-28b4cf3bee9d"
+        },
+        "EntityAttributes": {
+          "name": "Firework Shell",
+          "isActive": false,
+          "parentId": "3c32df40-1e5e-4250-8d96-e6d41b49a6d2",
+          "layer": "3d",
+          "guid": "fca8a257-8213-4ece-b081-c1698561b74e"
+        }
+      }
+    },
+    {
+      "name": "Bloom (resource)",
+      "traits": {
+        "EntityAttributes": {
+          "name": "Bloom (resource)",
+          "parentId": "",
+          "guid": "8a6b5dda-6827-4674-a66b-0ef953493bbe"
+        },
+        "BloomPostFX": {
+          "enabled": true,
+          "strength": 1.2,
+          "radius": 0.7
+        }
+      }
+    },
+    {
+      "name": "Floor",
+      "traits": {
+        "Transform": {
+          "y": -0.15,
+          "sx": 24,
+          "sy": 0.3,
+          "sz": 24
+        },
+        "Renderable3DPrimitive": {
+          "mesh": "box",
+          "color": 658452
+        },
+        "EntityAttributes": {
+          "name": "Floor",
+          "isActive": false,
+          "parentId": "",
+          "layer": "3d",
+          "guid": "99d683f8-596b-4348-9c59-e7f3ab2ac944"
+        }
+      }
+    },
+    {
+      "name": "Main Camera",
+      "traits": {
+        "Transform": {
+          "x": 0.3917775830783964,
+          "y": 1.8411627285987795,
+          "z": 11.358287086819695,
+          "rx": -0.5405395599542335,
+          "ry": 0.24451416172840756,
+          "rz": 0.14428093832232766
+        },
+        "Camera": {
+          "fov": 50,
+          "far": 100,
+          "clearColor": 329226
+        },
+        "EntityAttributes": {
+          "name": "Main Camera",
+          "parentId": "",
+          "layer": "3d",
+          "guid": "a8d6adea-7b19-4265-853d-9727c9a4f9ba"
+        },
+        "Animator": {
+          "clips": "[{\"name\":\"tour\",\"clip\":\"2f6eb287-cc46-490c-a1c1-54654ef4bd55\"}]",
+          "clip": "tour"
+        }
+      }
+    },
+    {
+      "name": "Ambient Light",
+      "traits": {
+        "Transform": {},
+        "EntityAttributes": {
+          "name": "Ambient Light",
+          "sortOrder": 10,
+          "parentId": "",
+          "guid": "982d7af6-6c1d-4b5e-9a27-42a7f6c96eb8"
+        },
+        "Light": {
+          "lightType": "ambient",
+          "intensity": 0.05
+        }
+      }
+    },
+    {
+      "name": "Sun",
+      "traits": {
+        "Transform": {
+          "x": 5,
+          "y": 10,
+          "z": 4,
+          "rx": -0.9396258266828337,
+          "ry": 0.24449494730810023
+        },
+        "EntityAttributes": {
+          "name": "Sun",
+          "sortOrder": 11,
+          "parentId": "",
+          "guid": "c5235492-71a9-4254-b3d3-36894b70c4a7"
+        },
+        "Light": {
+          "color": 16774368,
+          "intensity": 0.3,
+          "castShadow": true
+        }
+      }
+    }
+  ]
+}

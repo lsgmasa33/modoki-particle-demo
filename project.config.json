@@ -1,15 +1,168 @@
 {
+  "app": {
+    "appId": "com.modokiengine.particledemo",
+    "appName": "Particle Demo",
+    "iconSource": ""
+  },
+  "content": {
+    "scenes": [
+      {
+        "guid": "8d342f06-9c66-49be-9eae-d0e55253d8d8",
+        "include": true
+      },
+      {
+        "guid": "7bac61a5-cc6d-40e6-965d-8b00f6e15bf6",
+        "include": true
+      },
+      {
+        "guid": "3389f7e0-2b32-47f5-aba5-1a5583ff9478",
+        "include": true
+      },
+      {
+        "guid": "0d03e373-8f83-438e-9750-111ba8b72831",
+        "include": true
+      },
+      {
+        "guid": "b97fe452-7ce1-4ae3-bdab-fac0900f2868",
+        "include": true
+      },
+      {
+        "guid": "b475ce02-fa2f-45c5-ac03-02bef20a345f",
+        "include": true
+      },
+      {
+        "guid": "496022c0-3c7d-451b-9b1c-bc6e1a2cb2be",
+        "include": true
+      },
+      {
+        "guid": "e42b1446-9c82-455f-9360-aff9fe0f7028",
+        "include": true
+      },
+      {
+        "guid": "323ecf0b-5481-4390-8948-3ed0b41cb707",
+        "include": true
+      },
+      {
+        "guid": "8a37bcc4-ff01-45e9-a335-3ac8232a728e",
+        "include": true
+      },
+      {
+        "guid": "34459a02-7493-49cd-a24d-c7c48b3186a8",
+        "include": true
+      },
+      {
+        "guid": "89082ef9-346f-4ebf-b7cc-a90fc1edc361",
+        "include": true
+      }
+    ]
+  },
   "build": {
+    "webDeployMode": "none",
     "webBucket": "",
     "webBasePath": "/",
     "webCdnUrlMap": "",
-    "appleTeamId": "",
     "webCdnBackendBucket": "",
     "webDeployCommand": "",
-    "webDeployMode": "none"
+    "appleTeamId": "",
+    "debugBuild": false,
+    "modules": {
+      "render3d": "auto",
+      "render2d": "auto",
+      "physics2d": "auto",
+      "physics3d": "auto"
+    },
+    "playableMaxBytes": 5242880,
+    "playableClickUrl": "",
+    "playableNetwork": "applovin"
   },
-  "app": {
-    "appId": "com.modokiengine.particledemo",
-    "appName": "Particle Demo"
-  }
+  "capacitor": {
+    "webDir": "dist",
+    "iosContentMode": "mobile",
+    "androidScheme": "http",
+    "allowMixedContent": true,
+    "keyboardResize": "none",
+    "orientation": "auto",
+    "statusBarHidden": false,
+    "statusBarStyle": "default"
+  },
+  "rendering": {
+    "targetFps": 60,
+    "three": {
+      "backend": "auto",
+      "antialias": true,
+      "pixelRatioCap": 2,
+      "shadows": true,
+      "toneMapping": "ACESFilmic",
+      "exposure": 1.2,
+      "tiers": {
+        "mid": {
+          "pixelRatioCap": 1.5,
+          "antialias": false,
+          "shadows": true,
+          "shadowMapCeiling": 1024,
+          "postFX": {
+            "npr": false,
+            "ao": false,
+            "dof": false,
+            "bloom": true,
+            "vignette": true
+          },
+          "maxDirectional": 2,
+          "maxLocal": 3,
+          "ibl": true,
+          "iblOffAmbientBoost": 1,
+          "iblOffExposure": 1,
+          "targetFps": 0,
+          "pixiPixelRatioCap": 1,
+          "pixiAntialias": false,
+          "textureMaxSize": 1024,
+          "maxShadowCasters": 1,
+          "hysteresisMargin": 0.15
+        },
+        "low": {
+          "pixelRatioCap": 1,
+          "antialias": false,
+          "shadows": false,
+          "shadowMapCeiling": 512,
+          "postFX": {
+            "npr": false,
+            "ao": false,
+            "dof": false,
+            "bloom": false,
+            "vignette": false
+          },
+          "maxDirectional": 1,
+          "maxLocal": 1,
+          "ibl": false,
+          "iblOffAmbientBoost": 4,
+          "iblOffExposure": 1.25,
+          "targetFps": 30,
+          "pixiPixelRatioCap": 1,
+          "pixiAntialias": false,
+          "textureMaxSize": 512,
+          "maxShadowCasters": 1,
+          "hysteresisMargin": 0.15
+        }
+      }
+    },
+    "pixi": {
+      "backend": "auto",
+      "antialias": true,
+      "resolution": 0
+    },
+    "web": {
+      "sizeMode": "free",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "physics": {
+    "layers": [
+      "Default"
+    ],
+    "collisionMatrix": [
+      65535
+    ]
+  },
+  "postprocessors": {}
 }

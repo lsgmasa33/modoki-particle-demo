@@ -1,0 +1,412 @@
+{
+  "id": "7bac61a5-cc6d-40e6-965d-8b00f6e15bf6",
+  "version": 12,
+  "createdAt": "2026-08-04T07:00:30.596Z",
+  "resources": [
+    {
+      "type": "particle",
+      "path": "2c15ab0f-6d6f-4138-a142-fff99c76a5d7"
+    },
+    {
+      "type": "particle",
+      "path": "8e859493-057a-4ff1-883c-c9dba7134b9f"
+    },
+    {
+      "type": "particle",
+      "path": "a5e1483a-da29-431d-aeca-da30f5c5ee62"
+    },
+    {
+      "type": "particle",
+      "path": "bfd88b34-e11f-4986-9dbc-8a779e8add68"
+    },
+    {
+      "type": "particle",
+      "path": "d7da7da0-c930-4784-8299-0fc6ff9eeba0"
+    },
+    {
+      "type": "particle",
+      "path": "f732a776-3c16-443c-8548-638fc0a38241"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Time (resource)",
+      "traits": {
+        "Time": {}
+      }
+    },
+    {
+      "name": "Canvas",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Canvas",
+          "parentId": "",
+          "layer": "ui",
+          "guid": "477d1380-e071-4595-9f28-913eaa8ff84c"
+        },
+        "UIElement": {
+          "width": 100,
+          "height": 100,
+          "overflow": "hidden",
+          "backgroundColor": 1315860,
+          "backgroundOpacity": 1,
+          "borderColor": 3359829
+        },
+        "Canvas2D": {
+          "scaleMode": "contain"
+        },
+        "UIAnchor": {
+          "safeArea": false
+        }
+      }
+    },
+    {
+      "name": "Label Flame2D",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Flame2D",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "0f807813-e031-4cb5-89fd-54da238539e5"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Flame Flipbook",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-right",
+          "top": 1230,
+          "right": 60
+        }
+      }
+    },
+    {
+      "name": "Label Line",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Line",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "21a6525b-38e7-4930-adb4-41a7072bbb6a"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Emit Along Line",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-left",
+          "top": 710,
+          "left": 60
+        }
+      }
+    },
+    {
+      "name": "Title",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Title",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "4480d218-6349-4335-9a5d-bbe3ad003626"
+        },
+        "UIElement": {
+          "width": 100,
+          "text": "Particle Gallery — 2D",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-stretch",
+          "top": 18
+        }
+      }
+    },
+    {
+      "name": "Magic Swirl",
+      "traits": {
+        "Transform": {
+          "x": 270,
+          "y": 1600
+        },
+        "ParticleEmitter": {
+          "effect": "a5e1483a-da29-431d-aeca-da30f5c5ee62"
+        },
+        "EntityAttributes": {
+          "name": "Magic Swirl",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "4e286514-5b08-436c-803f-98a1635fffd3"
+        }
+      }
+    },
+    {
+      "name": "Label Jet",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Jet",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "62504e81-05b2-438f-8cc3-35de37838985"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Aligned Jet",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-left",
+          "top": 190,
+          "left": 60
+        }
+      }
+    },
+    {
+      "name": "Flame Flipbook 2D",
+      "traits": {
+        "Transform": {
+          "x": 810,
+          "y": 1600
+        },
+        "ParticleEmitter": {
+          "effect": "bfd88b34-e11f-4986-9dbc-8a779e8add68"
+        },
+        "EntityAttributes": {
+          "name": "Flame Flipbook 2D",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "625936d5-999c-4d0b-9956-782a74273d96"
+        }
+      }
+    },
+    {
+      "name": "Label Smoke",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Smoke",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "68266a72-0616-406c-b325-e0bc33ceb9b4"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Smoke Drift",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-right",
+          "top": 710,
+          "right": 60
+        }
+      }
+    },
+    {
+      "name": "Nav 3D Showcase",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Nav 3D Showcase",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "6d852a59-3bc1-459f-9b2c-dd87fd745aad"
+        },
+        "UIElement": {
+          "width": 170,
+          "widthUnit": "px",
+          "paddingTop": 12,
+          "paddingTopUnit": "px",
+          "paddingBottom": 12,
+          "paddingBottomUnit": "px",
+          "backgroundColor": 2828617,
+          "backgroundOpacity": 0.85,
+          "borderRadius": 10,
+          "text": "3D Showcase →",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAction": {
+          "bindings": [
+            {
+              "event": "click",
+              "kind": "call",
+              "action": "engine.loadScene",
+              "params": {
+                "payload": "/assets/scenes/main.json"
+              }
+            }
+          ]
+        },
+        "UIAnchor": {
+          "anchor": "top-right",
+          "top": 30,
+          "right": 28
+        }
+      }
+    },
+    {
+      "name": "Label Magic",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Magic",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "9f18bee6-9cc4-4e2f-ac21-87d53497a808"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Magic Swirl",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-left",
+          "top": 1230,
+          "left": 60
+        }
+      }
+    },
+    {
+      "name": "Label Confetti",
+      "traits": {
+        "RenderableUI": true,
+        "EntityAttributes": {
+          "name": "Label Confetti",
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "ui",
+          "guid": "d5cacc58-e5a6-48cf-9cd1-f8c9783552a3"
+        },
+        "UIElement": {
+          "width": 460,
+          "widthUnit": "px",
+          "text": "Confetti",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center"
+        },
+        "UIAnchor": {
+          "anchor": "top-right",
+          "top": 190,
+          "right": 60
+        }
+      }
+    },
+    {
+      "name": "Aligned Jet",
+      "traits": {
+        "Transform": {
+          "x": 270,
+          "y": 560
+        },
+        "ParticleEmitter": {
+          "effect": "8e859493-057a-4ff1-883c-c9dba7134b9f"
+        },
+        "EntityAttributes": {
+          "name": "Aligned Jet",
+          "sortOrder": 1,
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "22f45f59-7be4-4ac1-9130-46e319d11906"
+        }
+      }
+    },
+    {
+      "name": "Confetti",
+      "traits": {
+        "Transform": {
+          "x": 810,
+          "y": 560
+        },
+        "ParticleEmitter": {
+          "effect": "f732a776-3c16-443c-8548-638fc0a38241"
+        },
+        "EntityAttributes": {
+          "name": "Confetti",
+          "sortOrder": 2,
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "7ea55363-cce8-427c-9572-e5ab98d0dd7e"
+        }
+      }
+    },
+    {
+      "name": "Emit Along Line",
+      "traits": {
+        "Transform": {
+          "x": 270,
+          "y": 1080
+        },
+        "ParticleEmitter": {
+          "effect": "d7da7da0-c930-4784-8299-0fc6ff9eeba0"
+        },
+        "EntityAttributes": {
+          "name": "Emit Along Line",
+          "sortOrder": 3,
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "02ff9938-adb4-4a3d-a556-625bce7db44e"
+        }
+      }
+    },
+    {
+      "name": "Smoke Drift",
+      "traits": {
+        "Transform": {
+          "x": 810,
+          "y": 1080
+        },
+        "ParticleEmitter": {
+          "effect": "2c15ab0f-6d6f-4138-a142-fff99c76a5d7"
+        },
+        "EntityAttributes": {
+          "name": "Smoke Drift",
+          "sortOrder": 4,
+          "parentId": "477d1380-e071-4595-9f28-913eaa8ff84c",
+          "layer": "2d",
+          "guid": "33c78129-9ddd-4c66-a0e9-0eea511cde97"
+        }
+      }
+    },
+    {
+      "name": "Camera",
+      "traits": {
+        "Transform": {},
+        "Camera": {
+          "fov": 50,
+          "far": 1000,
+          "overlayDistance": 10,
+          "clearColor": 1315860
+        },
+        "EntityAttributes": {
+          "name": "Camera",
+          "parentId": "",
+          "layer": "3d",
+          "guid": "b4dbff88-f5dd-4c00-9f44-8837d777c7bd"
+        }
+      }
+    }
+  ]
+}
